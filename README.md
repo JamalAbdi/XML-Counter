@@ -1,8 +1,10 @@
 # XML-Counter
 Counts the occurrences in an XML tag and outputs the simplified version
 
-countXML.c this file reads stdin and implements the algorithm. It will confirm the XML is valid and then
-will add up all the sperate occurances and display  how many times they exis in the XML
+validity_check.c It will confirm the XML is of valid structure
+
+countXML.c this file reads stdin and implements the algorithm.
+Then will add up all the sperate occurances and display  how many times they exis in the XML
 
 stringHashTable.c makes the XML readable in C
 
